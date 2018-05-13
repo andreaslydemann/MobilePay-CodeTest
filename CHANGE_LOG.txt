@@ -1,0 +1,7 @@
+Description of changes
+
+Author: Andreas Lüdemann
+Date: 13-05-2018
+
+The following changes were made to the LogComponent:
+- 

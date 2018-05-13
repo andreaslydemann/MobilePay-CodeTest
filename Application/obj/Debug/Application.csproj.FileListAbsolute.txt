@@ -1,0 +1,9 @@
+\\Mac\Home\Documents\Projekter\MobilePay-CodeTest\Application\bin\Debug\LogUsers.exe.config
+\\Mac\Home\Documents\Projekter\MobilePay-CodeTest\Application\bin\Debug\LogUsers.exe
+\\Mac\Home\Documents\Projekter\MobilePay-CodeTest\Application\bin\Debug\LogUsers.pdb
+\\Mac\Home\Documents\Projekter\MobilePay-CodeTest\Application\bin\Debug\LogTest.dll
+\\Mac\Home\Documents\Projekter\MobilePay-CodeTest\Application\bin\Debug\LogTest.pdb
+\\Mac\Home\Documents\Projekter\MobilePay-CodeTest\Application\obj\Debug\Application.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Projekter\MobilePay-CodeTest\Application\obj\Debug\Application.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\Projekter\MobilePay-CodeTest\Application\obj\Debug\LogUsers.exe
+\\Mac\Home\Documents\Projekter\MobilePay-CodeTest\Application\obj\Debug\LogUsers.pdb

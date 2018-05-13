@@ -42,7 +42,11 @@
   <ItemGroup>
     <Compile Include="AsyncLog.cs" />
     <Compile Include="ILog.cs" />
+    <Compile Include="ILogFilenameProvider.cs" />
+    <Compile Include="ILogWriter.cs" />
+    <Compile Include="LogFilenameProvider.cs" />
     <Compile Include="LogLine.cs" />
+    <Compile Include="LogWriter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

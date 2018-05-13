@@ -19,8 +19,6 @@ namespace LogTest
         /// Write a message to the Log.
         /// </summary>
         /// <param name="text">The text to written to the log</param>
-        void Write(string text);
-
-
+        void AddLogEntry(string text);
     }
 }
