@@ -4,4 +4,7 @@ Author: Andreas Lüdemann
 Date: 13-05-2018
 
 The following changes were made to the LogComponent:
-- 
+- Writing of logs was moved to a separate class, LogWriter
+- Reduction of code duplication
+- Add locks to the writer
+- Move creation of AsyncLog and LogWriter to a factory

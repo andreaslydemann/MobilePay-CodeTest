@@ -1,0 +1,15 @@
+\\Mac\Home\Documents\Projekter\MobilePay-CodeTest\AsyncLogTest\bin\Debug\netcoreapp2.0\LogComponentTests.deps.json
+\\Mac\Home\Documents\Projekter\MobilePay-CodeTest\AsyncLogTest\bin\Debug\netcoreapp2.0\LogComponentTests.dll
+\\Mac\Home\Documents\Projekter\MobilePay-CodeTest\AsyncLogTest\bin\Debug\netcoreapp2.0\LogTest.dll
+\\Mac\Home\Documents\Projekter\MobilePay-CodeTest\AsyncLogTest\bin\Debug\netcoreapp2.0\LogTest.pdb
+\\Mac\Home\Documents\Projekter\MobilePay-CodeTest\AsyncLogTest\obj\Debug\netcoreapp2.0\LogComponentTests.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Projekter\MobilePay-CodeTest\AsyncLogTest\obj\Debug\netcoreapp2.0\LogComponentTests.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\Projekter\MobilePay-CodeTest\AsyncLogTest\obj\Debug\netcoreapp2.0\LogComponentTests.AssemblyInfoInputs.cache
+\\Mac\Home\Documents\Projekter\MobilePay-CodeTest\AsyncLogTest\obj\Debug\netcoreapp2.0\LogComponentTests.AssemblyInfo.cs
+\\Mac\Home\Documents\Projekter\MobilePay-CodeTest\AsyncLogTest\bin\Debug\netcoreapp2.0\LogComponentTests.pdb
+\\Mac\Home\Documents\Projekter\MobilePay-CodeTest\AsyncLogTest\obj\Debug\netcoreapp2.0\LogComponentTests.dll
+\\Mac\Home\Documents\Projekter\MobilePay-CodeTest\AsyncLogTest\obj\Debug\netcoreapp2.0\LogComponentTests.pdb
+\\Mac\Home\Documents\Projekter\MobilePay-CodeTest\AsyncLogTest\bin\Debug\netcoreapp2.0\NUnit3.TestAdapter.dll
+\\Mac\Home\Documents\Projekter\MobilePay-CodeTest\AsyncLogTest\bin\Debug\netcoreapp2.0\NUnit3.TestAdapter.pdb
+\\Mac\Home\Documents\Projekter\MobilePay-CodeTest\AsyncLogTest\bin\Debug\netcoreapp2.0\nunit.engine.netstandard.dll
+\\Mac\Home\Documents\Projekter\MobilePay-CodeTest\AsyncLogTest\bin\Debug\netcoreapp2.0\Mono.Cecil.dll

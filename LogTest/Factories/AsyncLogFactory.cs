@@ -1,6 +1,7 @@
 ﻿using System;
 using LogTest.Logs;
 using LogTest.LogWriters;
+using LogTest.Providers;
 
 namespace LogTest.Factories
 {
@@ -10,7 +11,7 @@ namespace LogTest.Factories
         {
             String directory = @"C:\LogTest\";
 
-            return new AsyncLog(new LogWriter(directory, new LogFilenameProvider()));
+            return new AsyncLog(new LogWriter(directory, new LogFilenameProvider(), DateTime.Now));
         }
     }
 }

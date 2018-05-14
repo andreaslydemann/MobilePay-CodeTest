@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Text;
 using System.IO;
+using LogTest.Providers;
 
 namespace LogTest.LogWriters
 {
@@ -11,11 +12,11 @@ namespace LogTest.LogWriters
         private StreamWriter _writer;
         private DateTime _curDate;
 
-        public LogWriter(String directory, ILogFilenameProvider fnProvider)
+        public LogWriter(String directory, ILogFilenameProvider fnProvider, DateTime dt)
         {
             _directory = directory;
             _fnProvider = fnProvider;
-            _curDate = DateTime.Now;
+            _curDate = dt;
 
             OpenLogWriter();
         }

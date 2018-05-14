@@ -43,10 +43,10 @@
     <Compile Include="Logs\AsyncLog.cs" />
     <Compile Include="Logs\ILog.cs" />
     <Compile Include="Factories\ILogFactory.cs" />
-    <Compile Include="ILogFilenameProvider.cs" />
+    <Compile Include="Providers\ILogFilenameProvider.cs" />
     <Compile Include="LogWriters\ILogWriter.cs" />
     <Compile Include="Factories\AsyncLogFactory.cs" />
-    <Compile Include="LogFilenameProvider.cs" />
+    <Compile Include="Providers\LogFilenameProvider.cs" />
     <Compile Include="LogLine.cs" />
     <Compile Include="LogWriters\LogWriter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

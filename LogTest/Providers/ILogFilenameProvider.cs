@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LogTest
+namespace LogTest.Providers
 {
     public interface ILogFilenameProvider
     {

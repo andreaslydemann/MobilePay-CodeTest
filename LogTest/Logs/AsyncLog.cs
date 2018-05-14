@@ -12,7 +12,7 @@ namespace LogTest.Logs
         private ILogWriter _writer;
         private bool _quitWithFlush;
         private bool _exit;
-
+        
         public AsyncLog(ILogWriter writer)
         {
             _writer = writer;
