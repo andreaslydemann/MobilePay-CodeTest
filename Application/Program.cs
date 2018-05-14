@@ -1,16 +1,15 @@
 ﻿using System;
+using System.Threading;
+using LogTest.Factories;
 
 namespace LogUsers
 {
-    using System.Threading;
-
-    using LogTest;
-
     class Program
     {
         static void Main(string[] args)
         {
-            ILog  logger = new AsyncLog();
+            ILogFactory asyncLogFactory = new AsyncLogFactory();
+            var logger = asyncLogFactory.CreateLog();
 
             for (int i = 0; i < 15; i++)
             {
@@ -20,7 +19,7 @@ namespace LogUsers
 
             logger.StopWithFlush();
 
-            ILog logger2 = new AsyncLog();
+            var logger2 = asyncLogFactory.CreateLog();
 
             for (int i = 50; i > 0; i--)
             {

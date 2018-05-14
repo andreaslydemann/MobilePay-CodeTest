@@ -1,29 +1,26 @@
-﻿namespace LogTest
-{
-    using System;
-    using System.Collections.Concurrent;
-    using System.IO;
-    using System.Threading;
+﻿using System;
+using System.Collections.Concurrent;
+using System.Threading;
+using LogTest.LogWriters;
 
+namespace LogTest.Logs
+{
     public class AsyncLog : ILog
     {
-        private String _directory = @"C:\LogTest\";
         private Thread _runThread;
         private ConcurrentQueue<LogLine> _lines;
         private ILogWriter _writer;
-        private ILogFilenameProvider _fnProvider;
-        private bool _quitWithFlush = false;
-        private bool _exit = false;
+        private bool _quitWithFlush;
+        private bool _exit;
 
-        public AsyncLog()
+        public AsyncLog(ILogWriter writer)
         {
-            if (!Directory.Exists(_directory))
-                Directory.CreateDirectory(_directory);
-            
+            _writer = writer;
             _lines = new ConcurrentQueue<LogLine>();
-            _fnProvider = new LogFilenameProvider();
-            _writer = new LogWriter(_directory, _fnProvider);
-            
+
+            _exit = false;
+            _quitWithFlush = false;
+
             _runThread = new Thread(MainLoop);
             _runThread.Start();
         }
@@ -52,7 +49,7 @@
                         }
                     }
 
-                    if (_quitWithFlush == true && _lines.IsEmpty)
+                    if (_quitWithFlush && _lines.IsEmpty)
                     {
                         lock (_writer)
                         {

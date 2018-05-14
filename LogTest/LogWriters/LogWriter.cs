@@ -2,19 +2,19 @@
 using System.Text;
 using System.IO;
 
-namespace LogTest
+namespace LogTest.LogWriters
 {
     public class LogWriter : ILogWriter
     {
+        public ILogFilenameProvider _fnProvider;
+        public String _directory;
         private StreamWriter _writer;
-        private ILogFilenameProvider _fnProvider;
-        private DateTime _curDate = DateTime.Now;
-        private String _directory;
+        private DateTime _curDate;
 
         public LogWriter(String directory, ILogFilenameProvider fnProvider)
         {
-            _fnProvider = fnProvider;
             _directory = directory;
+            _fnProvider = fnProvider;
             _curDate = DateTime.Now;
 
             OpenLogWriter();

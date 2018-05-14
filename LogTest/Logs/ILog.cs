@@ -1,7 +1,4 @@
-﻿using System.Linq;
-using System.Threading.Tasks;
-
-namespace LogTest
+﻿namespace LogTest.Logs
 {
     public interface ILog
     {
